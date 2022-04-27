@@ -7,6 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <button onclick="sayHello();">Click Me</button>
+    <button onclick="sayHi();">Click Me Too</button>
+    <input type="submit"></button>
+    <input value="" onkeyup="setValue(this.value)"/>
+
+    <script>
+      function sayHello(){ alert('Hello, Window.alert Method!') };
+      function sayHi(){ console.log('Hi, Console.log Method!') };
+      let usersInput;
+          function setValue(input) {
+       usersInput = input
+       console.log({usersInput})
+     }
+   </script>
+    </script>
 </body>
 </html>
